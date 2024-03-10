@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FF9999"
+        tools:context=".MainActivity">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#FFB6C1"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgsunscreen01"
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/sunscreen01"
+                    android:onClick="onImageClick"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nama :  Skin Aqua UV Moisture Milk 40 g\nHarga : Rp55.000"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    />
+
+                <Button
+                    android:id="@+id/btnsunscreen01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text=" Skin Aqua UV Moisture Milk 40 g"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="8dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#FFB6C1"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgsunscreen02"
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/sunscreen02"
+                    android:onClick="onImageClick"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nama : Vaseline Tone Up Sun Cream 40 SPF/PA++ 50 ml\nHarga : Rp160.000"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    />
+
+                <Button
+                    android:id="@+id/btnsunscreen02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Vaseline Tone Up Sun Cream 40 SPF/PA++ 50 ml"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#FFB6C1"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgsunscreen03"
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/sunscreen03"
+                    android:onClick="onImageClick"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nama : Emina Sun Battle SPF 45 PA+++ 30 ml \nHarga : Rp53.000"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    />
+
+                <Button
+                    android:id="@+id/btnsunscreen03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Emina Sun Battle SPF 45 PA+++ 30 ml"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="8dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#FFB6C1"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgsunscreen04"
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/sunscreen04"
+                    android:onClick="onImageClick"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nama : Biore UV Aqua Rich\nHarga : Rp158.000"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    />
+
+                <Button
+                    android:id="@+id/btnsunscreen04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Biore UV Aqua Rich"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="8dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#FFB6C1"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgsunscreen05"
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/sunscreen05"
+                    android:onClick="onImageClick"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nama : Wardah UV Shield Gel Sunscreen Serum SPF 35 PA+++\nHarga : Rp30.000"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    />
+
+                <Button
+                    android:id="@+id/btnsunscreen05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Wardah UV Shield Gel Sunscreen Serum SPF 35 PA+++"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="8dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
